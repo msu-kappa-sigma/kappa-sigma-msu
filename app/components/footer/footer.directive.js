@@ -1,0 +1,9 @@
+'use strict';
+
+angular.module('kappa-sigma').directive('footer',function(){
+    var directive = {};
+    directive.restrict = 'EA';
+    directive.replace = true;
+    directive.templateUrl ="app/components/footer/footer.html"
+    return directive;
+});
