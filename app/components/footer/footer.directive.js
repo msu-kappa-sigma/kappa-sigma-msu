@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('kappa-sigma').directive('footer',function(){
+angular.module('kappa-sigma').directive('foot',function(){
     var directive = {};
     directive.restrict = 'E';
     directive.replace = true;
