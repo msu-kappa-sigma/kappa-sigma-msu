@@ -13,7 +13,8 @@ body {
 
 @media screen and (min-width: 500px) {
     body {
-        background-image: url('/assets/img/chapter_house_fall.jpg');
+        background: url('/assets/img/chapter_house_fall.jpg') no-repeat;
+        background-size: 100%;
     }
 }
 
@@ -27,6 +28,10 @@ body {
 }
 .navbar a{
   color: inherit;
+}
+
+.navbar-toggler{
+  color: #903030;
 }
 
 .jumbotron, .about{
